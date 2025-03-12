@@ -1,0 +1,47 @@
+/* Gaya Umum */
+body {
+    background-image: url('background.jpg'); /* Ganti dengan nama file gambar latar belakang Anda */
+    background-size: cover; /* Mengatur gambar agar menutupi seluruh latar belakang */
+    background-position: center; /* Memusatkan gambar */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    color: Black; /* Mengubah warna teks agar kontras dengan latar belakang gelap */
+    font-family: Times New Roman, sans-serif; /* Font untuk seluruh halaman */
+    margin: 0; /* Menghilangkan margin default */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+/* Gaya Header */
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Latar belakang transparan untuk header */
+    padding: 20px;
+    text-align: center; /* Memusatkan teks di header */
+}
+
+/* Gaya Navigasi */
+nav ul {
+    list-style-type: none; /* Menghilangkan bullet point */
+    padding: 0; /* Menghilangkan padding */
+}
+
+nav ul li {
+    display: inline; /* Menampilkan item navigasi secara horizontal */
+    margin: 0 15px; /* Jarak antar item */
+}
+
+nav ul li a {
+    color: #f0f0f0; /* Warna tautan */
+    text-decoration: none; /* Menghilangkan garis bawah pada tautan */
+}
+
+/* Gaya Section */
+section {
+    padding: 20px; /* Jarak dalam section */
+    margin: 20px; /* Jarak luar section */
+    background-color: rgba(255, 255, 255, 0.1); /* Latar belakang transparan untuk section */
+    border-radius: 10px; /* Sudut membulat */
+}
+
+/* Gaya Footer */
+footer {
+    text-align: center; /* Memusatkan teks di footer */
+    padding: 
